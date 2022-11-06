@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-image: url("image/image1.jpg");
+  }
+.container {
+    padding: 50px;
+  background-color: lightblue;
+}
+
+input[type=text], input[type=password],input[type=int], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus,input[type=int]:focus {
+  background-color: orange;
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<form>
+  <div class="container">
+  <center>  <h1> Employee Registeration </h1> </center>
+  <hr>
+  <label> Name </label> 
+<input type="text" name="name" placeholder= "name" size="200" required /> 
+<label> Aadhar Number: </label> 
+<input type="int" name="aadharId" placeholder="aadharId" size="16" required /> 
+ 
+
+
+<label> 
+Phone :
+</label>
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/> 
+<input type="text" name="phone" placeholder="phone no." size="10"/ required> 
+Current Address :
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>
+</textarea>  
+<label> Pin Code: </label> 
+<input type="int" name="enter pincode" placeholder="pincode" size="6" required /> 
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required> 
+<label for="username"><b>User Name</b></label>  
+ <input type="text" placeholder="enter username" name="username" required>  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required> <br><br>
+    <center><a href="" type="submit" class="registerbtn">Register</a></center>
+</form>  
+</body>  
+</html>  

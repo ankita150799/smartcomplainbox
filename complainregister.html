@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-image: url("image/image1.jpg");
+  }
+.container {
+    padding: 50px;
+  background-color: lightblue;
+}
+
+input[type=text], input[type=password],input[type=int], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus,input[type=int]:focus {
+  background-color: orange;
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<form>
+  <div class="container">
+  <h1> Register Your Complain </h1>
+  <hr> 
+  <label> Subject of the Complain: </label> 
+  <input type="text" name="subject" placeholder="subject of complain" size="100" required /> 
+  
+ Brief your Complain :
+ <textarea cols="80" rows="10" placeholder="Current Address" value="address" required>
+ </textarea>  
+ 
+    <center><a href = "" type="submit" class="registerbtn">
+        Register
+    </a> </center>
+</form>  
+</body>  
+</html>  

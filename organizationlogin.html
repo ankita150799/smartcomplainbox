@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style> 
+body {
+  background-image: url("image/image1.jpg");
+  }
+.button { 
+        background-color: #4CAF50; 
+        width: 100%;
+        color: orange; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid green; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        background-color: #4CAF50; 
+        color: orange;
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+        cursor: pointer;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color: rgb(87, 201, 236);
+    } 
+</style> 
+</head>  
+<body>  
+    <center> <h1> Organization Login Form </h1> </center> 
+    <form>
+        <div class="container"> 
+            <label>Organization ID : </label> 
+            <input type="text" placeholder="Enter ID" name="Organization ID" required>
+            <br><label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="pass" required>
+            <br><br>
+            <center><a href = "employeeregister.html" type="submit" class="button">Login</a></center>
+            <br><br>
+            <input type="checkbox" checked="checked"> Remember me 
+            <a href="mainpage.html" type="button" class="cancelbtn"> Cancel</a> 
+	        New User <a href="organizationregister.html"> Register </a>  
+        </div> 
+    </form>   
+</body>   
+</html>
+
+ 
